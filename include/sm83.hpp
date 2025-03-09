@@ -11,4 +11,3 @@ class SM83 {
     void execNextInstruction(); //fetch, decode, and execute next opcode
 };
 
-#endif
