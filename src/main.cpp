@@ -1,5 +1,5 @@
 #include <iostream>
-#include "sm83.hpp"
+#include "core.hpp"
 
 using namespace std;
 

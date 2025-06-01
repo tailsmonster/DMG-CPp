@@ -4,7 +4,7 @@
 
 class SM83 {
   public:
-    uint8_t A, B, C, D, E, F; //A is the main register for logic and arithmitic / B-E are general purpose registers / F stores CPU status flags 
+    uint8_t A, B, C, D, E, F, H, L; //A is the main register for logic and arithmitic / B-E are general purpose registers / F stores CPU status flags 
     uint16_t PC, SP; //Program Counter (stores the current instruction address), Stack Pointer (points to the top of the stack in memory)
 
     void reset(); //inits cpu
